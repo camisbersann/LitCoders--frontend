@@ -15,6 +15,15 @@ const Drawer = createDrawerNavigator();
 const DrawerRoutes = () => {
   return (
     <Drawer.Navigator drawerContent={(props) => <CustomDrawerContent {...props} />}
+    drawerStyle={{
+      backgroundColor: "#fff",
+      width: 240,
+      shadowColor: '#fff',
+      shadowOpacity: 0.8,
+      shadowRadius: 10,
+       shadowOffset: { width: 3, height: 3},
+      elevation: 20,
+    }}
     screenOptions={{
       drawerActiveTintColor: "white",
       headerTintColor: "white",
