@@ -1,5 +1,5 @@
 import { View, Text } from "react-native";
-import styles from "./styles";
+import styles from "./styles.js";
 //import Title from "../../components/Title";
 import SobreNosC from "../../components/SobreNos";
 
