@@ -10,6 +10,7 @@ import ArtesPlasticas from '../screens/ArtesPlasticas';
 import SobreNos from '../screens/SobreNos';
 import CustomDrawerContent from "../components/ImageDrawer";
 
+
 const Drawer = createDrawerNavigator();
 
 const DrawerRoutes = () => {
@@ -32,6 +33,7 @@ const DrawerRoutes = () => {
       },
     }}
     >
+         
       <Drawer.Screen name="Home" component={Home} 
        options={{
         title: "Home",
@@ -49,6 +51,7 @@ const DrawerRoutes = () => {
               }}
             />
           </View>
+     
         ),
         headerStyle: {
           backgroundColor: "#04233f",
@@ -65,6 +68,7 @@ const DrawerRoutes = () => {
         headerTitle: "",
         headerTitle: () => (
           <View style={{ flexDirection: "row", alignItems: "right" }}>
+           
             <Image
               source={require("../../assets/logo.png")}
               style={{
