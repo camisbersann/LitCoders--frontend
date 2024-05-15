@@ -7,12 +7,13 @@ import CadastroObraDeArte from '../screens/CadastroObraDeArte';
 import Livro from '../screens/Livro';
 import ArtesPlasticas from '../screens/ArtesPlasticas';
 import SobreNos from '../screens/SobreNos';
+import CustomDrawerContent from "../components/ImageDrawer";
 
 const Drawer = createDrawerNavigator();
 
 const DrawerRoutes = () => {
   return (
-    <Drawer.Navigator>
+    <Drawer.Navigator drawerContent={(props) => <CustomDrawerContent {...props} />}>
       <Drawer.Screen name="Home" component={Home} />
       <Drawer.Screen name="Cadastrese" component={Cadastrese} />
       <Drawer.Screen name="CadastroLivro" component={CadastroLivro} />
