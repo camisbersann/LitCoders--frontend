@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#8CA2B0",
         padding: 10,
         borderRadius: 5,
-        marginTop: 10,
+        marginTop: 20,
     },
     textButton: {
         color: "#FFF",
@@ -32,10 +32,27 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: '#000',
         padding: 10,
-        marginTop: 10,
+        marginTop: 30,
         borderRadius: 0,
         outline: 'none',
         boxShadow: '0 0 0 0 black',
     },
+    text1: {
+        color: "#FFF",
+        textAlign: "center",
+        marginTop: 20,
+        fontSize: 20,
+    },
+    text2: {
+        color: "#F3DC8C",
+        textAlign: "center",
+        marginTop: 10,
+        fontWeight: "bold",
+        fontSize: 20,
+        marginBottom: 20,
+    },
+    iconContainer: {
+        padding: 5,
+      },
 });
 export default styles;
