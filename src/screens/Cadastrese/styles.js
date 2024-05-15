@@ -23,9 +23,19 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         marginTop: 10,
     },
-    textButton2: {
+    textButton: {
         color: "#FFF",
         textAlign: "center",
+    },
+    input: {
+        backgroundColor: 'transparent',
+        borderBottomWidth: 1,
+        borderBottomColor: '#000',
+        padding: 10,
+        marginTop: 10,
+        borderRadius: 0,
+        outline: 'none',
+        boxShadow: '0 0 0 0 black',
     },
 });
 export default styles;

@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Image, ScrollView, Link,  } from 'react-native';
+import { View, Text, TouchableOpacity, Image, ScrollView, Link, TextInput } from 'react-native';
 import styles from './styles';
 import Title from '../../components/Title';
 
@@ -8,21 +8,22 @@ export default function Cadastrese() {
       <ScrollView>
       <Text style={styles.text}>Cadastre-se</Text>
       <View style={styles.cardcadastro}>
-        <Text style={styles.textButton}>Nome:</Text>
-        <Text style={styles.textButton}>Sobrenome:</Text>
-        <Text style={styles.textButton}>Data de Nascimento:</Text>
-        <Text style={styles.textButton}>CPF:</Text>
-        <Text style={styles.textButton}>Telefone:</Text>
-        <Text style={styles.textButton}>Email:</Text>
-        <Text style={styles.textButton}>Senha:</Text>
-        <Text style={styles.textButton}>Confirme a senha:</Text>
+        <TextInput style={styles.input} placeholder="Digite seu nome"  />
+        <TextInput style={styles.input} placeholder="Digite seu sobrenome" />
+        <TextInput style={styles.input} placeholder="Digite sua data de nascimento" />
+        <TextInput style={styles.input} placeholder="Digite seu CPF" />
+        <TextInput style={styles.input} placeholder="Digite seu telefone" />
+        <TextInput style={styles.input} placeholder="Digite seu email" />
+        <TextInput style={styles.input} placeholder="Digite sua senha" />
+        <TextInput style={styles.input} placeholder="Confirme sua senha" />
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.textButton2}>Cadastrar</Text>
+          <Text style={styles.textButton}>Cadastrar</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.textButton2}>Voltar</Text>
+          <Text style={styles.textButton}>Voltar</Text>
         </TouchableOpacity>
       </View>
+      <Text>Já possui uma conta? Clique aqui e faça seu login</Text>
       </ScrollView>
     </View>
   )
