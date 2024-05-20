@@ -5,32 +5,32 @@ import Swiper from 'react-native-deck-swiper';
 const cardData = [
   {
     name: 'Descubra Destinos Gastronômicos Exclusivos:',
-    url: require('./assets/pratocomida.png'),
+    url: require('../../../assets/pratocomida.png'),
     descricao: 'Elite Chefs é mais do que um guia; é uma jornada gastronômica...'
   },
   {
     name: 'Curadoria de Especialistas:',
-    url: require('./assets/cardapio.png'),
+    url: require('../../../assets/cardapio.png'),
     descricao: 'Nossa equipe de especialistas em gastronomia trabalha...'
   },
   {
     name: 'Explore Diversidade de Sabores:',
-    url: require('./assets/restaurante.png'),
+    url: require('../../../assets/restaurante.png'),
     descricao: 'Do requinte clássico à vanguarda culinária, nosso guia...'
   },
   {
     name: 'Avaliações Autênticas:',
-    url: require('./assets/medalha.png'),
+    url: require('../../../assets/medalha.png'),
     descricao: 'Para garantir sua confiança, o Elite Chefs oferece avaliações...'
   },
   {
     name: 'Planeje sua Próxima Experiência',
-    url: require('./assets/maocomida.png'),
+    url: require('../../../assets/maocomida.png'),
     descricao: 'Navegue pelo Elite Chefs para planejar sua próxima...'
   },
   {
     name: 'Junte-se à Comunidade Elite:',
-    url: require('./assets/parceria.png'),
+    url: require('../../../assets/parceria.png'),
     descricao: 'Embarque nesta jornada gastronômica extraordinária com o...'
   },
 ];
