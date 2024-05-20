@@ -52,12 +52,12 @@ const PaginaSobre = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <View className={`flex-1 bg-custom-white`}>
       <Swiper
         ref={swiperRef}
         cards={cardData}
         renderCard={(card) => (
-          <View style={styles.card}>
+          <View style={styles.card} className={`flex-1 rounded-lg border-2 bg-custom-white justify-center `}>
             <Image source={card.url} style={styles.image} />
             <Text style={styles.title}>{card.name}</Text>
             <Text style={styles.description}>{card.descricao}</Text>
