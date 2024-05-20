@@ -24,17 +24,7 @@ export default function Cadastrese() {
       <ScrollView>
         <Text style={styles.text}>Cadastre-se</Text>
         <View style={styles.cardcadastro}>
-          <TextInput style={styles.input} placeholder="Digite seu nome" />
-          <TextInput style={styles.input} placeholder="Digite seu sobrenome" />
-          
-          <TextInput
-            style={styles.input}
-            placeholder="Digite seu CPF"
-            keyboardType="numeric"
-            maxLength={14}
-            onChangeText={(text) => {
-            }}
-          />
+          <TextInput style={styles.input} placeholder="Digite seu nome completo" />
           <View style={{ flexDirection: 'row', alignItems: 'center' }}>
             <TextInput
               style={[styles.input, { flex: 1 }]}
